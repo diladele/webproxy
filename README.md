@@ -25,7 +25,7 @@ Currently the project has no built-in Admin UI and can be managed only manually 
 
 For configuration examples see the following pages.
 
-* How to Enable HTTPS Decryption
+* [How to Enable HTTPS Decryption](./docs/faq/enable_https_decryption.md)
 * How to Change Port to Listen On
 * How to Block Sites by Categories
 * How to Block Ads
