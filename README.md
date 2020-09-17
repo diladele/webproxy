@@ -8,10 +8,10 @@ In order to install the application download and run the MSI file from http://pa
 
 The installer will make the following changes to your system.
 
-* Install `webproxyd.exe` file into `C:\Program Files\Diladele\WebProxy` folder
-* Add Web Filtering Proxy service in Service Manager.
-* Put data folders with definition files, logs and temporary contents into `C:\ProgramData\Diladele\WebProxy`.
-* Add a firewall rule to built in Windows Firewall allowing TCP connections from within your localsubnet to IP addresss of the machine port 3128.
+* Install `webproxyd.exe` executable file into `C:\Program Files\Diladele\WebProxy` folder.
+* Add Web Filtering Proxy service to Services Management Console.
+* Put data folders with definition files, logs and other temporary contents into `C:\ProgramData\Diladele\WebProxy`.
+* Add a firewall rule to built-in Windows Defender Firewall allowing TCP connections from within your local subnet to IP address of the system (port 3128).
 
 ## How to Use?
 
