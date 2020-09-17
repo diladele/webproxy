@@ -15,20 +15,21 @@ The installer will make the following changes to your system.
 
 ## How to Use?
 
-Point your browsers to the IP address of the machine where you installed the application port 3128.
+Point your browsers to the IP address of the machine where you installed the application (port 3128) and browse the web. 
 
 ## How to Configure?
 
-Currently the project has no built-in Admin UI and can be managed manually using JSON configuration file in `C:\ProgramData\Diladele\WebProxy\etc\config.json`. Configuration is mostly self explanatory. Just make the changes in the JSON file, save it and restart the service from the Service Management console.
+Currently the project has no built-in Admin UI and can be managed only manually using JSON configuration file in `C:\ProgramData\Diladele\WebProxy\etc\config.json`. Configuration is mostly self explanatory. Just make the changes in the JSON file, save it and restart the service from the Service Management console.
 
 ## Configuration examples
 
-Enable HTTPS decryption
-Change port to listen to
-Block Adult Categories
-Block Ads
+For configuration examples see the following pages.
 
+* How to Enable HTTPS Decryption
+* How to Change Port to Listen On
+* How to Block Sites by Categories
+* How to Block Ads
 
 ## Issues, Feature Requests or Support
 
-Please add the issue, feature request or support question directly here.
+Please use the [New Issue](https://github.com/diladele/webproxy/issues/new) button to add the issue, feature request or support question directly to the development team. You can also send an e-mail to support@diladele.com
