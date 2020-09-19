@@ -34,3 +34,5 @@ Save the `config.json` file and restart the Web Filtering Proxy service in the S
 After HTTPS decryption was enabled and browser set to trust the Root CA certificate of the proxy browsing shall work normally and clicking on the certificate lock in the browser shall show the notification message (screenshot is for Mozilla Firefox other browsers may present the same information differently).
 
 ![Trusted Root CA in Mozilla Firefox](decrypted.png?raw=true "Trusted Root CA in Mozilla Firefox")
+
+The Web Filtering Proxy is now fully configured to inspect the decrypted traffic and perform web filtering.
