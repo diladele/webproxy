@@ -7,7 +7,7 @@ Web Filtering Proxy is capable of decrypting HTTPS traffic coming from the brows
 To generate the Root CA certificate use the following OpenSSL commands. 
 
 	$ openssl req -new -newkey rsa:2048 -sha256 -days 3650 -nodes -x509 -keyout myca.pem -out myca.pem
-	$ openssl x509 -in myca.pem -outform DER -out myca.der
+	$ openssl x509 -outform der -in myca.pem -out myca.der
 
 Copy the myca.pem and myca.der into `C:\ProgramData\Diladele\WebProxy\etc\` folder. Note after installation sample myca.pem and myca.der are stored there already. These files shall never be used in real deployment but are ok if you need to quickly see the application in action in the test lab. Trusting these files pose serious security risk just because anyone can extract those from the installer.
 
