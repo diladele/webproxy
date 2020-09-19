@@ -1,4 +1,4 @@
-# Version History / Change Log
+# Version History
 
 ## 0.1 - September 19, 2020.
 
