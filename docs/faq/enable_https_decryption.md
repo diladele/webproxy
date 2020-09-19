@@ -9,7 +9,7 @@ To generate the Root CA certificate use the following OpenSSL commands.
 	$ openssl req -new -newkey rsa:2048 -sha256 -days 3650 -nodes -x509 -keyout myca.pem -out myca.pem
 	$ openssl x509 -outform der -in myca.pem -out myca.der
 
-Copy the myca.pem and myca.der into `C:\ProgramData\Diladele\WebProxy\etc\` folder. Note after installation sample myca.pem and myca.der are stored there already. These files shall never be used in real deployment but are ok if you need to quickly see the application in action in the test lab. Trusting these files pose serious security risk just because anyone can extract those from the installer.
+Copy the myca.pem and myca.der into `C:\ProgramData\Diladele\WebProxy\etc\` folder. Note after installation sample `myca.pem` and `myca.der` are present there already. These files shall never be used in real deployment but are ok if you need to quickly see the application in action in the test lab. Trusting these files pose serious security risk just because anyone can extract those from the installer.
 
 Note if you have trusted Root CA from our Web Safety project you can directly use it in Web Filtering Proxy application. See https://docs.diladele.com/administrator_guide_stable/https_filtering/generate_certificates/automatically.html.
 
