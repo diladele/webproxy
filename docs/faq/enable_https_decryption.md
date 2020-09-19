@@ -1,7 +1,25 @@
 # How to Enable HTTPS Decryption
 
-Web Filtering Proxy is capable of decrypting HTTPS traffic coming from the browsers. Use the following steps to set it up:
+Web Filtering Proxy is capable of decrypting HTTPS traffic coming from the browsers. In order to decrypt the HTTPS traffic you would first need to generate a self-signed Root Certification Authority (Root CA) certificate and then install it into the trusted certificate store of your operating system.
 
-* Ensure you have generated Root Certification Authority decryption certificate as described in the following article. By default there is an example certificate is stored in `C:\ProgramData\Diladele\WebProxy\etc\myca.pem` after installation. You are strongly advised to generate your own. Trusting default certificate may pose serious security risk because anyone has access to it.
-* Ensure you have installed this decryption certificate as trusted into your browsers. See these article for more information. Note that Chrome/Edge browsers load trusted certificates from system store and Firefox has its own certificate store.
+## Generate the Root Ca Decryption Certificate
+
+To generate the Root CA certificate use the following OpenSSL commands. 
+
+	$ openssl req -new -newkey rsa:2048 -sha256 -days 3650 -nodes -x509 -keyout myca.pem -out myca.pem
+	$ openssl x509 -in myca.pem -outform DER -out myca.der
+
+Copy the myca.pem and myca.der into `C:\ProgramData\Diladele\WebProxy\etc\` folder. Note after installation sample myca.pem and myca.der are stored there already. These files shall never be used in real deployment but are ok if you need to quickly see the application in action in the test lab. Trusting these files pose serious security risk just because anyone can extract those from the installer.
+
+Note if you have trusted Root CA from our Web Safety project you can directly use it in Web Filtering Proxy application. See https://docs.diladele.com/administrator_guide_stable/https_filtering/generate_certificates/automatically.html.
+
+## Install Root Ca as Trusted Certificate into the Microsoft Windows 
+
+To install the newly generated Root CA certificate as trusted into certificate storage of Microsoft Windows, please follow the article https://docs.diladele.com/administrator_guide_stable/https_filtering/install_certificates/index.html. Note that both Chrome and Edge browsers load trusted certificates from system store and Firefox has its own certificate store.
+
+## Enable HTTPS Decryption in the Filtering Policy
+
+
+
+## Ensure it Works
 
