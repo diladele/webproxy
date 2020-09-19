@@ -15,7 +15,7 @@ The installer will make the following changes to your system.
 
 ## How to Use?
 
-Point your browsers to the IP address of the machine where you installed the application (port 3128) and browse the web. 
+Point your browser to the IP address of the machine where you installed the application (port 3128) and browse the web normally. 
 
 ## How to Configure?
 
