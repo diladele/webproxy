@@ -19,7 +19,7 @@ Point your browser to the IP address of the machine where you installed the appl
 
 ## How to Configure?
 
-Currently the project has no built-in Admin UI and can be managed only manually using JSON configuration file in `C:\ProgramData\Diladele\WebProxy\etc\config.json`. Configuration is mostly self explanatory. Just make the changes in the JSON file, save it and restart the service from the Service Management console.
+Currently the project has no built-in Admin UI and can be managed only manually using JSON configuration file in `C:\ProgramData\Diladele\WebProxy\etc\config.json`. Configuration is mostly self-explanatory. Just make the changes in the JSON file, save it and restart the service from the Service Management console.
 
 ## Configuration examples
 
