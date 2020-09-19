@@ -4,7 +4,7 @@ Web Filtering Proxy for Microsoft Windows is a new implementation of web filteri
 
 ## How to Install?
 
-In order to install the application download and run the MSI file from http://packages.diladele.com/webproxy/0.1.0.E641/amd64/release/windows/webproxy-0.1.0.E641_amd64.msi. New features and improvements implemented in this version are described in the [change log](./docs/versions.md).
+In order to install the application download and run the MSI file from http://packages.diladele.com/webproxy/0.1.0.E641/amd64/release/windows/webproxy-0.1.0.E641_amd64.msi. 
 
 The installer will make the following changes to your system.
 
@@ -12,6 +12,8 @@ The installer will make the following changes to your system.
 * Add Web Filtering Proxy service to Services Management Console.
 * Put data folders with definition files, logs and other temporary contents into `C:\ProgramData\Diladele\WebProxy`.
 * Add a firewall rule to built-in Windows Defender Firewall allowing TCP connections from within your local subnet to IP address of the system (port 3128).
+
+Features and improvements implemented in this version are described in the [change log](./docs/versions.md).
 
 ## How to Use?
 
