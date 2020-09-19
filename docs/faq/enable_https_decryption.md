@@ -19,7 +19,7 @@ To install the newly generated Root CA certificate as trusted into certificate s
 
 ## Enable HTTPS Decryption in the Filtering Policy
 
-HTTPS decryption in Web Filtering Proxy is configured per policy level. This makes it very convenient to selectively enable HTTPS decryption for subsets of your network. To enable decryption, open the `config.json` file and ensure you have the `"mode" = 2` in the decryption section. Possible values are 0 (no_decryption), 1 (targeted_decryption) and  2 (complete_decryption). 
+HTTPS decryption in Web Filtering Proxy is configured per policy level. This makes it very convenient to selectively enable HTTPS decryption for subsets of your network. To enable decryption, open the `config.json` file and ensure you have the `"mode" : 2` in the decryption section. Possible values are 0 (no_decryption), 1 (targeted_decryption) and  2 (complete_decryption). 
 
 	"decryption" : {
         "trusted" : [ "banking_insurance_finance", "government", "health_medicine_fitness", "network_infrastructure" ],
