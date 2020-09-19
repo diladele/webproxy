@@ -15,7 +15,7 @@ Note if you have trusted Root CA from our Web Safety project you can directly us
 
 ## Install Root Ca as Trusted Certificate into the Microsoft Windows 
 
-To install the newly generated Root CA certificate as trusted into certificate storage of Microsoft Windows, please follow the article https://docs.diladele.com/administrator_guide_stable/https_filtering/install_certificates/index.html. Note that both Chrome and Edge browsers load trusted certificates from the system store and Firefox has its own certificate store.
+To install the newly generated Root CA certificate as trusted into certificate storage of Microsoft Windows, please follow the article for [Internet Explorer / Microsoft Edge or Google Chrome](https://docs.diladele.com/administrator_guide_stable/https_filtering/install_certificates/win_ie_chrome.html) and [FireFox](https://docs.diladele.com/administrator_guide_stable/https_filtering/install_certificates/win_ff.html). Note that both Chrome and Edge browsers load trusted certificates from the system store and Firefox has its own certificate store.
 
 ## Enable HTTPS Decryption in the Filtering Policy
 
