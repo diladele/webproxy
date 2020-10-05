@@ -4,7 +4,7 @@ Web Filtering Proxy for Microsoft Windows is a new implementation of web filteri
 
 ## How to Install?
 
-In order to install the application download and run the MSI file from http://packages.diladele.com/webproxy/0.1.0.E641/amd64/release/windows/webproxy-0.1.0.E641_amd64.msi. 
+In order to install the application download and run the MSI file from http://packages.diladele.com/webproxy/0.2.0.8806/amd64/release/windows/webproxy-0.2.0.8806_amd64.msi. 
 
 The installer will make the following changes to your system.
 
