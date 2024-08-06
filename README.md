@@ -1,6 +1,6 @@
 # Web Filtering Proxy for Microsoft Windows
 
-Web Filtering Proxy for Microsoft Windows is a new implementation of web filtering proxy running natively on Microsoft Windows. It can decrypt HTTPS traffic, filter HTTP requests and responses and inspect contents of HTML pages. 
+Web Filtering Proxy is a modern secure web gateway for Microsoft Windows. It can decrypt HTTPS traffic, filter HTTP requests and responses, inspect contents of HTML pages, enforce Safe Browsing and protect from online malware.
 
 Download MSI installer and see it in action at https://webproxy.diladele.com.
 
