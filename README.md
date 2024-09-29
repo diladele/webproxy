@@ -2,7 +2,7 @@
 
 Web Filtering Proxy is a modern secure web gateway for Microsoft Windows. It can decrypt HTTPS traffic, filter HTTP requests and responses, inspect contents of HTML pages, enforce Safe Browsing and protect from online malware.
 
-Download MSI installer and see it in action at https://webproxy.diladele.com.
+Download MSI installer and see it in action at https://www.diladele.com/webproxy/.
 
 ## Issues, Feature Requests or Support
 
